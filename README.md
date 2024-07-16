@@ -11,7 +11,7 @@ Tools: Docker
 Setup Instructions
 To run the Receipt Processor locally or in your environment, follow these steps:
 
-Clone the Repository:
+Clone the Repository :
 
 bash
 Copy code
