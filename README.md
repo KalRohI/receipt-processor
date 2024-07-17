@@ -23,3 +23,7 @@ To run the Receipt Processor locally or in your environment, follow these steps:
    ```bash
    git clone https://github.com/your-username/receipt-processor.git
    cd receipt-processor
+   
+2. **Build and Run with Docker:**
+   ```docker build -t receipt-processor .
+      docker run -p 8080:8080 receipt-processor
