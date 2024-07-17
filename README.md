@@ -25,5 +25,16 @@ To run the Receipt Processor locally or in your environment, follow these steps:
    cd receipt-processor
    
 2. **Build and Run with Docker:**
-   ```docker build -t receipt-processor .
+   ```bash
+      docker build -t receipt-processor .
       docker run -p 8080:8080 receipt-processor
+
+3. **Testing with Postman:**
+   Use Postman or any HTTP client to test the endpoints:
+   ```bash
+      Process Receipts: POST http://localhost:8080/receipts/process
+      Get Points: GET http://localhost:8080/receipts/{id}/points
+##API Specification
+- For detailed API documentation, refer to api.yml.
+
+
